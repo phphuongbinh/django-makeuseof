@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'mathmetic_sol.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.sqlite3',
         'URL': 'postgres://postgres:Gefa-Bf3bCf6F-gAFD43GE6BGF35F26*@viaduct.proxy.rlwy.net:50864/railway',
         'NAME': 'railway',
         'USER': 'postgres',
