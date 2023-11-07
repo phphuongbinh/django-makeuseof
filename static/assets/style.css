@@ -1,0 +1,13 @@
+h1 {
+  color: red;
+}
+
+.test-class {
+  font-size: 40px;
+  background-color: blue;
+  color: purple;
+}
+
+.grid {
+  display: grid;
+}
