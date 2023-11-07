@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "mathmetic_sol/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "mathmetic_sol/wsgi.py"
+      }
+    ]
+}

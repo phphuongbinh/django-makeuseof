@@ -77,8 +77,13 @@ WSGI_APPLICATION = 'mathmetic_sol.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'URL': 'postgres://postgres:Gefa-Bf3bCf6F-gAFD43GE6BGF35F26*@viaduct.proxy.rlwy.net:50864/railway',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'Gefa-Bf3bCf6F-gAFD43GE6BGF35F26*',
+        'HOST': 'viaduct.proxy.rlwy.net',
+        'PORT': 50864,
     }
 }
 
